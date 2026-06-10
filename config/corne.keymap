@@ -31,6 +31,26 @@
             bindings = <&caps_word>;
             key-positions = <24 35>;
         };
+
+        resert-bluetooth {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <0 11>;
+        };
+
+        next-bt-profile {
+            bindings = <&bt BT_NXT>;
+            key-positions = <5 6>;
+        };
+
+        disconnect-bluetooth-profile {
+            bindings = <&bt BT_CLR>;
+            key-positions = <17 18>;
+        };
+
+        b {
+            bindings = <&sys_reset>;
+            key-positions = <29 30>;
+        };
     };
 
     keymap {
