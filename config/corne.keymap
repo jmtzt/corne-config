@@ -51,6 +51,21 @@
             bindings = <&sys_reset>;
             key-positions = <29 30>;
         };
+
+        clear-left-side {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <36 37>;
+        };
+
+        reset-left {
+            bindings = <&sys_reset>;
+            key-positions = <12 36>;
+        };
+
+        conncet-1-left {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <24 36>;
+        };
     };
 
     keymap {
